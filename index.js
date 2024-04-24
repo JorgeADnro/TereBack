@@ -10,7 +10,7 @@ const session = require('express-session');
 const path = require('path'); 
 
 const corsOptions = {
-    origin: 'http://localhost:4200',
+    origin: 'https://opticuida-77fac.web.app/',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
     optionsSuccessStatus: 204,
